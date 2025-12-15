@@ -1,170 +1,100 @@
-# 🤖 JARVIS — Context-Aware Intelligent Assistant
+# JARVIS  
+## Context-Aware Intelligent Assistant for Academic Use
 
-## Overview
-
-**JARVIS** is a research-oriented intelligent personal assistant designed to understand user intent, maintain conversational context, and generate meaningful responses using **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques.
-
-This project is developed with an **academic focus** and is intended as a portfolio project for **Master’s applications in Artificial Intelligence / Computer Science**, particularly for **German universities**.
-
----
-
-## Motivation
-
-Traditional rule-based chatbots struggle with:
-
-* Understanding user intent accurately
-* Handling multi-turn conversations
-* Adapting to user context
-
-JARVIS addresses these limitations by using **data-driven intent classification** and a **context-aware dialogue architecture**, making it suitable for intelligent human–computer interaction research.
+### Author
+**Ghafar (Foad) Boudaghi**  
+Bachelor’s Student – Software Engineering  
+Email: foadboudaghi82@gmail.com  
+GitHub: https://github.com/foadfoax
 
 ---
 
-## Key Features
+## 📌 Project Overview
+JARVIS is a **research-oriented intelligent assistant** designed to explore fundamental concepts in **Artificial Intelligence, Natural Language Processing (NLP), and intelligent system design**.  
+The project focuses on **context-aware intent classification** using classical machine learning techniques, with an emphasis on **explainability, modular architecture, and academic reproducibility**.
 
-* Intent classification using Machine Learning
-* NLP preprocessing (tokenization, lemmatization, vectorization)
-* Context-aware memory module
-* Modular and extensible architecture
-* Academic-style evaluation and documentation
+Unlike commercial assistants, JARVIS is developed as an **academic project** to study how machine learning models can be structured, evaluated, and extended in a research environment.
 
 ---
 
-## System Architecture
+## 🎯 Academic Motivation
+Artificial Intelligence has become a core technology shaping modern society and scientific research. This project was developed to bridge **theoretical computer science concepts** (algorithms, statistics, and formal models) with **practical AI system implementation**.
 
-The system follows a modular pipeline:
-
-User Input → NLP Engine → Intent Classifier → Dialogue Manager ↔ Memory Module → Response Generator
-
-Each module is independently designed to allow future research extensions.
-
----
-
-## Dataset
-
-A custom dataset was created for this project.
-
-* Format: JSON
-* Content: User intents with example utterances
-* Intents include:
-
-  * Greeting
-  * Question Answering
-  * Task Request
-  * Memory Storage
-  * Memory Query
-  * Goodbye
-
-The dataset can be easily expanded to support new intents or domains.
+JARVIS serves as a foundation for further academic exploration in:
+- Natural Language Understanding
+- Intelligent Systems
+- Human–Computer Interaction
+- AI system architecture
 
 ---
 
-## Methodology
+## 🔬 Research Questions
+This project is guided by the following research questions:
 
-### 1. Text Preprocessing
-
-* Tokenization
-* Lemmatization
-* Stopword removal
-
-### 2. Feature Extraction
-
-* TF-IDF vectorization
-
-### 3. Intent Classification
-
-* Baseline model: Logistic Regression
-* Train/Test split
-* Performance evaluated using standard classification metrics
-
-### 4. Context Handling
-
-* Short-term memory for recent dialogue turns
-* User-specific information storage
+- How can contextual information improve intent classification accuracy in intelligent assistants?
+- What are the advantages of classical machine learning models (e.g., Logistic Regression) in terms of explainability compared to complex deep learning models?
+- How does a modular system architecture improve scalability and reproducibility in AI projects?
 
 ---
 
-## Evaluation
+## 🧪 Methodology
+The project follows a structured machine learning pipeline:
 
-The intent classification model is evaluated using:
+1. **Text Preprocessing**
+   - Tokenization
+   - Normalization
+   - Noise removal
 
-* Accuracy
-* Precision
-* Recall
-* F1-score
+2. **Feature Extraction**
+   - TF-IDF (Term Frequency–Inverse Document Frequency)
 
-Evaluation results demonstrate the effectiveness of machine learning–based intent recognition compared to rule-based approaches.
+3. **Modeling**
+   - Intent classification using **Logistic Regression**
 
----
+4. **System Design**
+   - Modular architecture separating data handling, model training, and evaluation
+   - Designed for clarity, extensibility, and academic experimentation
 
-## Technologies Used
-
-* **Programming Language:** Python
-* **Machine Learning:** Scikit-learn
-* **NLP:** NLTK / spaCy
-* **Data Handling:** JSON
-* **Version Control:** Git & GitHub
-
----
-
-## Project Structure
-
-```
-JARVIS/
-├── data/
-│   └── intents.json
-├── models/
-│   └── intent_model.pkl
-├── nlp/
-│   └── preprocessing.py
-├── memory/
-│   └── memory_manager.py
-├── dialogue/
-│   └── manager.py
-├── evaluation/
-│   └── metrics.py
-├── app.py
-└── README.md
-```
+5. **Evaluation**
+   - Performance analysis using classification accuracy
+   - Error analysis for model improvement
 
 ---
 
-## Limitations
-
-* Limited dataset size
-* Template-based response generation
-* No deep learning model in the current version
-
----
-
-## Future Work
-
-* Transformer-based models (BERT, DistilBERT)
-* Long-term memory and user profiling
-* Multilingual support
-* Integration with external APIs
-* Research-based performance comparison
+## 🛠 Technologies and Tools
+- **Programming Language:** Python  
+- **Machine Learning:** Scikit-learn  
+- **NLP Techniques:** TF-IDF, text preprocessing  
+- **Version Control:** Git, GitHub  
+- **Operating System:** Linux
 
 ---
 
-## Academic Relevance
+## 📊 Academic Outcomes
+Through this project, the following academic skills were developed:
 
-This project demonstrates:
-
-* Practical application of Machine Learning and NLP
-* Software engineering best practices
-* Research-oriented system design
-
-It is intended to support applications for **AI-focused Master’s programs** and **research-based scholarships**.
+- Application of machine learning algorithms to real-world NLP tasks
+- Research-oriented thinking and problem formulation
+- Modular software design for intelligent systems
+- Documentation and reproducibility aligned with academic standards
 
 ---
 
-## Author
+## 🚀 Future Work
+Planned extensions of this project include:
 
-**Foad Boudaghi**
-Bachelor’s student in Software Engineering
-GitHub: [https://github.com/foadfoax](https://github.com/foadfoax)
+- Integration of **Transformer-based language models**
+- Comparative analysis between classical ML and deep learning approaches
+- Expansion of contextual memory mechanisms
+- Preparing the system for controlled academic experiments
+- Alignment with MSc and PhD-level AI research
 
 ---
 
-⭐ *This project emphasizes learning through building, experimentation, and academic documentation.*
+## 🎓 Academic Context
+This project was developed as part of the author’s academic preparation for pursuing a **Master of Science (MSc) in Artificial Intelligence / Computer Science**, with the long-term goal of continuing toward **PhD-level research**.
+
+---
+
+## 📎 License
+This project is intended for **academic and research purposes**.
